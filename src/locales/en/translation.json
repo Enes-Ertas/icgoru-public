@@ -1,0 +1,315 @@
+{
+    "branding": {
+      "name": "Insight AI"
+    },
+    "nav": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "pricing": "Pricing"
+    },
+    "auth": {
+      "login": "Login",
+      "logout": "Logout",
+      "loading": "Verifying session..."
+    },
+    "landing": {
+      "title": "Start With Your Posts. Discover Yourself—and Others.",
+      "subtitle": "Posts say more than you realize. Reclaim your story.",
+      "cta": "Analyze Yourself",
+      "demo": {
+        "title": "Analyze social media analytics",
+        "placeholder": "username",
+        "cta": "Analyze"
+      }
+    },
+    "insightLab": {
+    "title": "Insight Engine Running",
+    "userMessage": "Analysis started for @{{username}}...",
+    "defaultMessage": "Analysis is starting...",
+    "phases": {
+      "scanning": "Scanning posts...",
+      "detecting": "Detecting emotional patterns...",
+      "integrating": "Integrating your profile...",
+      "generating": "Generating insights..."
+    },
+     "totalUsers": "Today {{count}} people gained insights.",
+    "lastAnalyzed": "Last analyzed user: {{username}}"
+  },
+    "features": {
+    "title": "Features",
+    "subtitle": "Dive Into Yourself, Cross-Platform Support, Save Your Insights",
+    "cards": {
+      "character": {
+        "title": "Dive Into Yourself",
+        "desc": "Decode the character hidden behind your posts and deepen your awareness."
+      },
+      "crossPlatform": {
+        "title": "All Your Accounts, One Place",
+        "desc": "Analyze your posts from X, Instagram, and LinkedIn together for a fuller insight.",
+        "instagramComing": "Instagram (coming soon)",
+      "linkedinComing": "LinkedIn (coming soon)",
+      "soonLabelFull": "(Currently available for X. Instagram & LinkedIn coming soon.)"
+      },
+      "pdf": {
+        "title": "Save Your Insights",
+        "desc": "Download your analysis as a PDF, keep it for yourself or share it with friends."
+      }
+    }
+  },
+    "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Step by step guide to explore your inner world.",
+    "cards": {
+      "connect": {
+        "title": "Connect Your Accounts",
+        "desc": "Link your X, Instagram or LinkedIn account and start the analysis in 1 minute."
+      },
+      "analyze": {
+        "title": "Start Your Insight",
+        "desc": "Start your insight with just one click and get immediate results."
+      },
+      "explore": {
+        "title": "Discover Your Results",
+        "desc": "Explore your analysis results and dive deeper into your character."
+      },
+      "share": {
+        "title": "Save & Share",
+        "desc": "Download your report as a PDF and keep it for yourself or share with friends."
+      }
+    }
+  },
+"emptyState": {
+  "title": "No analysis found yet",
+  "description": "You can start by entering a Twitter (X) username to perform a character analysis."
+}
+
+,
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Choose the plan that fits your needs",
+      "plans": {
+        "free": {
+          "name": "Free",
+          "price": "₺0",
+          "features": [
+            "1 analysis per day",
+            "Basic trait view",
+            "PDF reports unavailable",
+            "View last 5 analyses",
+            "Community support"
+          ],
+          "button": "Select"
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "₺49/mo",
+          "features": [
+            "5 analyses per day",
+            "Full traits & details",
+            "PDF report downloadable",
+            "Email notifications",
+            "Unlimited analysis history",
+            "Email support"
+          ],
+          "button": "Subscribe"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Contact Us",
+          "features": [
+            "Unlimited analyses",
+            "Full traits + enterprise add-ons",
+            "PDF report downloadable",
+            "SLA & API integration",
+            "Custom reporting & filtering",
+            "24/7 dedicated support"
+          ],
+          "button": "Select"
+        }
+      }
+    },
+   
+    "register": {
+        "logoAlt": "Insight AI Logo",
+        "title": "Insight AI",
+        "subtitle": "Register",
+        "namePlaceholder": "Name and Surname",
+        "emailPlaceholder": "Email",
+        "passwordPlaceholder": "Password",
+        "submitButton": "Continue",
+        "haveAccount": "Already have an account?",
+        "loginLink": "Log in",
+        "successMessage": "✅ Registration successful! 📩 Check your email.",
+        "errorMessage": "❌ Registration failed. Please try again."
+      },
+    "footer": {
+        "copy": "© 2025 Insight AI",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "historyList": {
+    "title": "Last 5 Analyses"
+  },
+    "login": {
+    "confirmedMessage": "📩 Your email has been confirmed. You can now log in.",
+    "title": "Insight AI",
+    "subtitle": "Log in",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "submitButton": "Continue",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Register",
+    "successMessage": "✅ Login successful!",
+    "errorMessage": "❌ Login failed. Email or password is incorrect.",
+    "logoAlt": "Insight AI Logo"
+  },
+  "tweetFeed": {
+    "title": "Sample Posts"
+  },
+  "home": {
+    "branding": "Insight AI",
+    "title": "Insight AI",
+    "quotaLabel": "Today's remaining analyses:",
+    "queueMessage": "🕒 Analysis queued, you'll get it via email when done.",
+    "loading": "🔍 Analyzing...",
+    "error": "❌ Something went wrong.",
+    "queuedMessage": "🕒 Your analysis has been queued, waiting for the result..."
+  },
+  "confirm": {
+    "title": "Email Verification",
+    "codePlaceholder": "Enter code",
+    "submit": "Verify",
+    "success": "Your account has been verified!",
+    "error": "Invalid or expired code.",
+    "resendButton": "Send new code",
+    "resendSuccess": "A new code has been sent to your email!",
+    "resendError": "Could not send code, please try again.",
+    "resendLoading": "Sending..."
+  },
+
+    "traits": {
+        "duyarlı": "Empathetic",
+        "enerjik": "Energetic",
+        "yaratıcı": "Creative",
+        "inatçı": "Stubborn",
+        "keskin": "Sharp",
+        "hırslı": "Ambitious",
+        "dingin": "Calm",
+        "inandirici": "Persuasive",
+        "cesur": "Brave",
+        "mizahi": "Humorous",
+        "asi": "Rebellious",
+        "isyankar": "Defiant",
+        "lider ruhlu": "Leader-like",
+        "içedönük": "Introverted",
+        "dışadönük": "Extroverted",
+        "melankolik": "Melancholic",
+        "kararsız": "Indecisive",
+        "idealist": "Idealistic",
+        "korkusuz": "Fearless",
+        "çekingen": "Shy"
+      }, "usernameInput": {
+        "placeholder": "Enter X (Twitter) username",
+        "button": "Start Analysis"
+      },"analysisResult": {
+    "title": "Analysis Result",
+    "showAll": "Show All",
+    "showLess": "Show Less",
+    "downloadPDF": "Download Full Analysis as PDF",
+    "pdfAlt": "PDF",
+      "downloadError": "PDF indirilemedi"
+  },
+  "privacy": {
+    "heading": "Privacy Policy",
+    "section": {
+      "intro": {
+        "title": "1. Introduction",
+        "text": "At Insight AI, we take our users’ privacy seriously. This policy explains what data we collect and how it is used."
+      },
+      "error": {
+  "invalidUsername": "Invalid or inaccessible username.",
+  "close": "Close",
+  "quotaExceeded": "You’ve used all your analysis quota for today.",
+  "rateLimit": "The system is currently overloaded. Please try again later.",
+  "invalidCode": "The verification code is invalid or expired.",
+  "emailNotConfirmed": "Please confirm your email before logging in.",
+  "invalidCredentials": "Invalid email or password.",
+  "alreadyConfirmed": "This email is already confirmed.",
+  "logoutFailed": "Logout failed. Please try again.",
+  "generic": "An error occurred. Please try again.",
+  "analysisNotFound": "The requested analysis could not be found.",
+  "alreadyFavorited": "This analysis is already in your favorites.",
+  "favoriteNotFound": "Favorite not found.",
+  "userNotFound": "User not found.",
+  "serverError": "A server error occurred. Please try again.",
+   "noTweets": "No tweets found for this user.",
+   "missingUsername": "Kullanıcı adı girilmemiş.",
+   "missingParameters": "Bazı gerekli bilgiler eksik.",
+   "twitterAuthStartFailed": "Failed to initiate Twitter login.",
+   "twitterCallbackFailed": "Could not retrieve access from Twitter.",
+   "twitterUserSaveFailed": "An error occurred while saving the Twitter user.",
+     "pdfGenerationFailed": "An error occurred while generating the PDF.",
+       "fetchUsersFailed": "Failed to fetch users.",
+        "fetchHistoryFailed": "Failed to load your analysis history. Please refresh the page.",
+        "adminRequired": "Admin privileges are required to perform this action.",
+        "noToken": "You must be logged in to perform this action.",
+        "invalidToken": "Your session might have expired. Please log in again.",
+        "resendFailed": "Failed to resend the code.",
+        "confirmFailed": "Verification failed.",
+  "locationFailed": "Language could not be set. Defaulting to English.",
+  "userExists": "This email address is already registered."
+
+}
+,
+
+"session": {
+  "verifying": "Verifying session..."
+},
+      "dataCollection": {
+        "title": "2. Data Collection",
+        "text": "We only fetch your Twitter, Instagram, and LinkedIn posts for the purpose of analysis. We do not access your personal account credentials."
+      },
+      "useOfData": {
+        "title": "3. Use of Data",
+        "text": "Collected data is used to generate character analysis PDFs and improve our service quality. We never share it with third parties."
+      },
+      "cookies": {
+        "title": "4. Cookies",
+        "text": "We use technical cookies for session management and UX enhancement. No personally identifying cookies are used."
+      },
+      "contact": {
+        "title": "5. Contact",
+        "text": "For questions about this policy, reach us at support@insightai.com."
+      }
+    }
+  },
+  "terms": {
+    "heading": "Terms of Use",
+    "section": {
+      "intro": {
+        "title": "1. Acceptance",
+        "text": "By using this website, you acknowledge that you have read, understood, and agree to these terms."
+      },
+      "license": {
+        "title": "2. License",
+        "text": "You are granted a limited, non-transferable, revocable license to use the service for personal purposes only."
+      },
+      "disclaimer": {
+        "title": "3. Disclaimer",
+        "text": "The service is provided \"as is.\" No guarantees are made regarding uninterrupted or error-free operation."
+      },
+      "limitations": {
+        "title": "4. Limitation of Liability",
+        "text": "Under no circumstances shall we be liable for indirect damages such as data loss or lost profits."
+      },
+      "law": {
+        "title": "5. Governing Law",
+        "text": "These terms are governed by the laws of the Republic of Turkey, and any disputes will be handled by Istanbul courts."
+      }
+    }
+  }
+
+    
+    
+  }
+  

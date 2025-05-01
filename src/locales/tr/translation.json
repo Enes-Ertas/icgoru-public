@@ -1,0 +1,316 @@
+{
+    "branding": {
+      "name": "İÇGÖRÜ AI"
+    },
+    "nav": {
+      "features": "Özellikler",
+      "howItWorks": "Nasıl Çalışır",
+      "pricing": "Fiyatlandırma"
+    },
+    "auth": {
+      "login": "Giriş Yap",
+      "logout": "Çıkış Yap",
+        "loading": "Oturum doğrulanıyor..."
+    },
+    "landing": {
+      "title": "Gönderilerden Kendini ve Başkalarını Keşfet.",
+      "subtitle": "Paylaşımlar düşündüğünden daha fazlasını söylüyor. Kendi hikâyeni yeniden yarat.",
+      "cta": "İçgörüye Başla",
+      "demo": {
+        "title": "Sosyal medya analizini başlat",
+        "placeholder": "kullanıcı adı",
+        "cta": "Analiz Et"
+      }
+    },
+    "insightLab": {
+    "title": "İçgörü Motoru İşlemde",
+    "userMessage": "@{{username}} için analiz başlatıldı...",
+    "defaultMessage": "Analiz başlatılıyor...",
+    "phases": {
+      "scanning": "Gönderiler taranıyor...",
+      "detecting": "Duygusal izler analiz ediliyor...",
+      "integrating": "Profil bütünleşiyor...",
+      "generating": "İçgörü oluşturuluyor..."
+    },
+    "totalUsers": "Bugün {{count}} kişi analiz aldı.",
+    "lastAnalyzed": "Son analiz edilen kullanıcı: {{username}}"
+  },
+  "error": {
+  "invalidUsername": "Kullanıcı adı geçersiz veya erişilemez.",
+  "close": "Kapat",
+  "quotaExceeded": "Bugünkü analiz hakkınızı doldurdunuz.",
+  "rateLimit": "Şu anda sistem yoğun. Lütfen daha sonra tekrar deneyin.",
+  "invalidCode": "Girdiğiniz kod geçersiz veya süresi dolmuş.",
+  "emailNotConfirmed": "Lütfen e-postanızı onaylayın.",
+  "invalidCredentials": "Geçersiz e-posta veya şifre.",
+  "alreadyConfirmed": "Bu e-posta zaten onaylandı.",
+  "logoutFailed": "Çıkış sırasında bir hata oluştu.",
+  "generic": "Bir hata oluştu. Lütfen tekrar deneyin.",
+  "analysisNotFound": "İlgili analiz bulunamadı.",
+  "alreadyFavorited": "Bu analiz zaten favorilere eklenmiş.",
+  "favoriteNotFound": "Favori bulunamadı.",
+  "userNotFound": "Kullanıcı bulunamadı.",
+  "serverError": "Sunucu hatası oluştu.",
+  "noTweets": "İlgili kullanıcıya ait tweet bulunamadı.",
+  "missingUsername": "Username is missing.",
+  "missingParameters": "Some required parameters are missing.",
+  "twitterAuthStartFailed": "Twitter ile giriş başlatılamadı.",
+  "twitterCallbackFailed": "Twitter erişimi alınamadı.",
+  "twitterUserSaveFailed": "Twitter kullanıcı kaydı sırasında hata oluştu.",
+    "pdfGenerationFailed": "PDF oluşturulurken bir hata meydana geldi.",
+    "fetchUsersFailed": "Kullanıcılar alınamadı.",
+      "fetchHistoryFailed": "Geçmiş yüklenemedi. Lütfen sayfayı yenileyin.",
+      "adminRequired": "Bu işlem için admin yetkisi gerekiyor.",
+      "noToken": "Giriş yapmadan bu işlemi gerçekleştiremezsiniz.",
+      "invalidToken": "Giriş süreniz dolmuş olabilir. Lütfen tekrar giriş yapın.",
+  "resendFailed": "Kod tekrar gönderilemedi.",
+  "confirmFailed": "Doğrulama başarısız oldu.",
+    "locationFailed": "Dil ayarlanamadı. Varsayılan olarak İngilizce seçildi.",
+      "userExists": "Bu e-posta adresi zaten kayıtlı."
+    
+},
+"session": {
+  "verifying": "Oturum doğrulanıyor..."
+},
+
+    "features": {
+    "title": "Özellikler",
+    "subtitle": "Kendinin Derinlerine İn, Çoklu Platform Desteği, İçgörünü Kaydet",
+    "cards": {
+      "character": {
+        "title": "Gerçek Bir Aynaya Bak",
+        "desc": "Gönderilerinin ardındaki karakter kodlarını çöz, farkındalığını derinleştir."
+      },
+      "crossPlatform": {
+        "title": "Tüm Hesapların, Tek Yerden",
+        "desc": "X, Instagram ve LinkedIn gönderilerini birlikte analiz et, daha bütüncül bir içgörü yakala.",
+        "instagramComing": "Instagram (yakında)",
+        "linkedinComing": "LinkedIn (yakında)",
+        "soonLabelFull": "(Şu anda sadece X destekleniyor. Instagram ve LinkedIn yakında eklenecek.)"
+      },
+      "pdf": {
+        "title": "İçgörünü Kaydet",
+        "desc": "Analiz sonuçlarını PDF olarak indir, sakla ya da arkadaşlarınla paylaş."
+
+      }
+    }
+  },
+    "howItWorks": {
+    "title": "Nasıl Çalışır?",
+    "subtitle": "Adım adım kılavuzla içgörülerini keşfet.",
+    "cards": {
+      "connect": {
+        "title": "Hesabını Bağla",
+        "desc": "X, Instagram veya LinkedIn hesabını bağla ve 1 dakikada analiz başlat."
+      },
+      "analyze": {
+        "title": "İçgörünü Başlat",
+        "desc": "Paylaşımlarını çözümlemek için hemen içgörünü başlat."
+      },
+      "explore": {
+        "title": "Sonuçları Keşfet",
+        "desc": "Analiz sonuçlarını keşfet, karakterini tanı."
+      },
+      "share": {
+        "title": "Paylaş ve Sakla",
+        "desc": "Sonuçları PDF olarak indir, sakla ya da paylaş."
+      }
+    }
+  },
+  "emptyState": {
+  "title": "Henüz bir analiz bulunamadı",
+  "description": "Bir X (Twitter) kullanıcı adı girerek karakter analizi yapmaya başlayabilirsiniz."
+}
+,
+    "pricing": {
+      "title": "Fiyatlandırma",
+      "subtitle": "İhtiyacınıza uygun planı seçin",
+      "plans": {
+        "free": {
+          "name": "Free",
+          "price": "₺0",
+          "features": [
+            "Günlük 1 analiz",
+            "Temel trait görünümü",
+            "PDF rapor indirilemez",
+            "Son 5 analiz görüntüleme",
+            "Topluluk desteği"
+          ],
+          "button": "Seç"
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "₺49/ay",
+          "features": [
+            "Günlük 5 analiz",
+            "Tam trait & detay",
+            "PDF rapor indirilebilme",
+            "E-posta bildirimi",
+            "Limitsiz analiz geçmişi",
+            "E-posta desteği"
+          ],
+          "button": "Abone Ol"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "İletişime Geçin",
+          "features": [
+            "Limitsiz analiz",
+            "Tam trait + kurumsal ek",
+            "PDF rapor indirilebilme",
+            "SLA & API entegrasyonu",
+            "Özel raporlama & filtreleme",
+            "7×24 özel destek"
+          ],
+          "button": "Seç"
+        }
+      }
+    },
+    "footer": {
+        "copy": "© 2025 İçgörü AI",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları"
+    }
+    ,
+    
+        "traits": {
+          "duyarlı": "Duyarlı",
+          "inatçı": "İnatçı",
+          "keskin": "Keskin",
+          "hırslı": "Hırslı",
+          "dingin": "Dingin",
+          "asi": "Asi",
+          "inandirici": "İnandırıcı", 
+    "cesur": "Cesur",
+    "mizahi": "Mizahi",
+          "isyankar": "İsyankar",
+          "lider ruhlu": "Lider Ruhlu",
+          "içedönük": "İçedönük",
+          "dışadönük": "Dışadönük",
+          "yaratıcı": "Yaratıcı",
+          "melankolik": "Melankolik",
+          "enerjik": "Enerjik",
+          "kararsız": "Kararsız",
+          "idealist": "İdealist",
+          "korkusuz": "Korkusuz",
+          "çekingen": "Çekingen"
+        },
+
+        "register": {
+    "logoAlt": "İÇGÖRÜ AI Logosı",
+    "title": "İÇGÖRÜ AI",
+    "subtitle": "Kayıt Ol",
+    "namePlaceholder": "Ad Soyad",
+    "emailPlaceholder": "E-posta",
+    "passwordPlaceholder": "Şifre",
+    "submitButton": "Devam Et",
+    "haveAccount": "Hesabın var mı?",
+    "loginLink": "Giriş Yap",
+    "successMessage": "✅ Kayıt başarılı! 📩 E-postanızı kontrol edin.",
+    "errorMessage": "❌ Kayıt başarısız. Lütfen tekrar deneyin."
+  },
+        "login": {
+    "confirmedMessage": "📩 E-posta adresiniz başarıyla onaylandı. Şimdi giriş yapabilirsiniz.",
+    "title": "İÇGÖRÜ AI",
+    "subtitle": "Giriş Yap",
+    "emailPlaceholder": "E-posta",
+    "passwordPlaceholder": "Şifre",
+    "submitButton": "Devam Et",
+    "noAccount": "Hesabın yok mu?",
+    "registerLink": "Kayıt Ol",
+    "successMessage": "✅ Giriş başarılı!",
+    "errorMessage": "❌ Giriş başarısız. E-posta veya şifre yanlış.",
+    "logoAlt": "İÇGÖRÜ AI Logosı"
+  },
+  "confirm": {
+    "title": "E-posta Doğrulama",
+    "codePlaceholder": "Kodu girin",
+    "submit": "Doğrula",
+    "success": "Hesabınız onaylandı!",
+    "error": "Geçersiz veya süresi dolmuş kod.",
+    "resendButton": "Yeni kod gönder",
+    "resendSuccess": "Yeni kod mailinize gönderildi!",
+    "resendError": "Kod gönderilemedi, tekrar deneyin.",
+    "resendLoading": "Gönderiliyor..."
+  },
+  "tweetFeed": {
+    "title": "Örnek Postlar"
+  },
+  "usernameInput": {
+    "placeholder": "X (Twitter) kullanıcı adı",
+    "button": "Analizi Başlat"
+  },
+  "historyList": {
+    "title": "Son 5 Analiz"
+  },
+  "home": {
+    "branding": "İçgörü AI",
+    "title": "İçgörü AI",
+    "quotaLabel": "Bugünkü analiz hakkınız:",
+    "queueMessage": "🕒 Analiz sıraya alındı, tamamlandığında mailinize gönderilecek.",
+    "loading": "🔍 Analiz yapılıyor...",
+    "error": "❌ Bir hata oluştu.",
+    "queuedMessage": "🕒 Analiz sıraya alındı, sonuç bekleniyor..."
+  },
+  "analysisResult": {
+    "title": "Analiz Sonucu",
+    "showAll": "Tümünü Göster",
+    "showLess": "Daha Az Göster",
+      "downloadError": "PDF indirilemedi",
+    "downloadPDF": "Geniş Analizi PDF olarak indir",
+    "pdfAlt": "PDF"
+  },
+  "privacy": {
+    "heading": "Gizlilik Politikası",
+    "section": {
+      "intro": {
+        "title": "1. Giriş",
+        "text": "İçgörü AI olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu politika, hangi verileri topladığımızı ve nasıl kullandığımızı açıklar."
+      },
+      "dataCollection": {
+        "title": "2. Veri Toplama",
+        "text": "Sosyal medya gönderilerinizi analiz etmek üzere yalnızca sizin Twitter, Instagram ve LinkedIn paylaşımlarınızı çekeriz. Kişisel hesap bilgilerinize erişimimiz yoktur."
+      },
+      "useOfData": {
+        "title": "3. Veri Kullanımı",
+        "text": "Toplanan veriler, karakter analizi yapıp size PDF raporu olarak sunmak ve hizmet kalitemizi iyileştirmek için kullanılır. Üçüncü taraflarla paylaşılmaz."
+      },
+      "cookies": {
+        "title": "4. Çerezler",
+        "text": "Oturum yönetimi ve kullanıcı deneyimini geliştirmek amacıyla teknik çerezler kullanıyoruz. Kişisel olarak sizi tanıyan çerezler kullanılmaz."
+      },
+      "contact": {
+        "title": "5. İletişim",
+        "text": "Bu gizlilik politikası hakkında sorularınız için bize support@insightai.com adresinden ulaşabilirsiniz."
+      }
+    }
+  },
+  "terms": {
+    "heading": "Kullanım Şartları",
+    "section": {
+      "intro": {
+        "title": "1. Kabul",
+        "text": "Bu web sitesini kullanarak bu şartları okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz."
+      },
+      "license": {
+        "title": "2. Lisans",
+        "text": "Size, kişisel kullanım amacıyla bu hizmeti sınırlı, devredilemez ve geri alınabilir bir lisans altında kullanma hakkı verilir."
+      },
+      "disclaimer": {
+        "title": "3. Feragat",
+        "text": "Hizmet \"olduğu gibi\" sunulur. Hiçbir garanti verilmez; web sitesinin kesintisiz veya hatasız çalışacağı konusunda taahhüt yoktur."
+      },
+      "limitations": {
+        "title": "4. Sorumluluk Sınırı",
+        "text": "Hiçbir durumda, veri kaybı veya kazanç kaybı gibi dolaylı zararlar için sorumluluk kabul etmiyoruz."
+      },
+      "law": {
+        "title": "5. Geçerli Hukuk",
+        "text": "Bu şartlar Türkiye Cumhuriyeti kanunlarına tabidir ve ihtilaflarda İstanbul mahkemeleri yetkilidir."
+      }
+    }
+  }
+      
+      
+  }
+  
