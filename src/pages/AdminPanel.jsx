@@ -81,9 +81,7 @@ function AdminPanel() {
         setStats(res.data);
       } catch (err) {
         console.error("❌ Stats fetch error:", err);
-        showError(
-          t("error.generic", "Bir hata oluştu. Lütfen tekrar deneyin.")
-        );
+        showError(t("error.generic", "An error occurred. Please try again."));
       }
     };
 

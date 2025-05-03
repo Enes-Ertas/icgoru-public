@@ -61,7 +61,10 @@ export default function NewLandingPage() {
         .catch((err) => {
           console.error("Lokasyon alınamadı:", err);
           showError(
-            t("error.locationFailed", "Dil ayarlanamadı. İngilizceye geçildi.")
+            t(
+              "error.locationFailed",
+              "Language could not be set. Defaulted to English."
+            )
           );
           i18n.changeLanguage("en");
           localStorage.setItem("language", "en");

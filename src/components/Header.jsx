@@ -11,7 +11,6 @@ export default function Header() {
   const { t } = useTranslation();
   const { currentUser, loading, setCurrentUser } = useUser();
   const location = useLocation();
-  console.log("🧠 currentUser:", currentUser);
 
   if (loading) {
     return (
