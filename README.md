@@ -1,70 +1,94 @@
 # 🧠 icgoru.ai – Character Insight via AI
 
-**icgoru.ai** is an AI-powered tool that analyzes the social media posts of any X (Twitter) user to generate psychological and behavioral insights.  
-It uses GPT to extract mood fluctuations, dominant emotional tones, and personality signals based on post history — offering a reflective window into how individuals express themselves online.
+**icgoru.ai** is an AI-powered analysis tool that generates psychological and behavioral insights by analyzing a user's social media posts on X (formerly Twitter).
 
-> 🚧 The live version of icgoru.ai will be available soon. Follow the build-in-public journey below.
+Built as a solo project, icgoru.ai bridges language, rhythm, and emotional patterns to create a mirror of how individuals express themselves digitally — through personality traits, mood variations, and symbolic patterns extracted by GPT.
 
----
-
-## 📦 What's Included in This Repo?
-
-This repository contains the **frontend UI only**, built with:
-
-- React (Vite)
-- TailwindCSS
-- Modular component-based design
-- Pages: Home, Landing, History, InsightView
-
-You’ll find:
-
-- A clean, mobile-responsive layout
-- Components like `UsernameInput`, `TraitCarousel`, `TweetFeed`, `HistoryList`
-- Placeholder UI for real-time and cached analysis flows
+> 🚧 The live version is coming soon. Follow the build-in-public progress on [@Enes__Ertas](https://twitter.com/Enes__Ertas).
 
 ---
 
-## 🔒 What's NOT Included (Private for now)
+## ✨ What’s in This Repo?
 
-To protect the originality, prompt logic, and technical architecture, the following parts remain private:
+This repo contains the **frontend code only**.
 
-- GPT prompt structure & psychological modeling
-- FastAPI analysis engine
-- Node.js backend (auth, quota, email, Redis queue)
-- PDF generation logic and layout
-- MongoDB models, access tokens, and caching layers
+Tech stack:
+
+- ⚛️ React (Vite)
+- 🎨 TailwindCSS
+- 🔍 i18n (multi-language support)
+- 📱 Mobile-responsive UI
+- 🧩 Modular components: `UsernameInput`, `TraitChart`, `TraitCarousel`, `TweetFeed`, `HistoryList`, etc.
+
+Available pages:
+
+- `/` → Landing Page
+- `/analysis/:id` → Analysis Viewer
+- `/sharedAnalysis/:id` → OG Meta-compatible share page
+- `/history` → Previous results for logged-in users
 
 ---
 
-## ⚙️ Setup (Local Preview for UI)
+## 🔒 What's Private?
 
-Clone and run the UI locally:
+To protect prompt integrity and backend architecture, these components are not public:
+
+- 🔐 GPT prompt structure & psychological modeling
+- 🧠 FastAPI engine (OpenAI-powered)
+- 🗂 MongoDB models & caching layer
+- 📥 PDF generation logic (PDFKit)
+- 🧾 Node.js backend (OAuth, quota tracking, Redis queue)
+- 📸 Puppeteer-based OG image generation
+- 🔒 Full .env config & access tokens
+
+---
+
+## 🛠 Setup (Local Preview – Frontend Only)
 
 ```bash
 git clone https://github.com/enesertas/icgoru-public.git
 cd icgoru-public
 npm install
 npm run dev
-```
 
-Ensure a .env file exists for frontend endpoint routing if needed:
 
+Ensure you have a .env.local or .env file:
+
+env
+Kopyala
+Düzenle
 VITE_API_URL=http://localhost:5000
+VITE_FRONTEND_URL=http://localhost:5173
+VITE_SUPABASE_URL=https://your.supabase.co/storage/v1/object/public/og-images
+
+frontend/
+├── components/         # Reusable UI pieces
+├── pages/              # Route-linked views
+├── utils/              # Helper configs (API URLs, i18n)
+├── assets/             # Icons & static content
+└── App.jsx             # Main app entry
 
 👤 About the Developer
-This project is built and maintained by @Enes\_\_Ertas —
-an early-stage solo developer exploring the intersection of AI × psychology × rhythm.
+Hi, I'm @Enes__Ertas
+I'm a solo indie developer exploring the intersection of:
 
-Follow the project and other upcoming tools:
+🤖 AI + LLMs
 
-🐦 Twitter: @Enes\_\_Ertas
+🧠 Psychology & behavior modeling
 
-🌐 Domain reserved: https://icgoru.ai
+🎼 Rhythm as cognition
 
-🤝 Contributing
-This repository is not currently accepting pull requests, but the journey is public.
-If you're interested in collaboration, ideas, or feedback, feel free to connect via Twitter DM or open an issue for discussion.
+This project started from curiosity, and became a self-reflection framework powered by GPT and design.
+
+🧩 Contributing
+This project is not accepting external PRs yet.
+However, you're welcome to fork, explore, and give feedback via issues or DMs on Twitter.
 
 📄 License
-This codebase is shared under the MIT License.
-However, the prompt structure, backend analysis system, and visual identity of icgoru.ai are not to be copied or repurposed for commercial products.
+MIT License – You are free to use and learn from the code in this repo.
+But the GPT prompt structure, backend pipeline, and brand visuals of icgoru.ai are NOT to be copied or used commercially.
+
+📍 Live Link Coming Soon
+🌐 icgoru.ai
+
+📡 Follow the build-in-public updates on Twitter
